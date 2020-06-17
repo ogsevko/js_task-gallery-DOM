@@ -25,11 +25,16 @@ h1 {
             justify-content: center; }
   .gallery__large-img {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 50%;
+    height: 50%; }
   .gallery__img {
     padding: 5px;
     border: 2px solid grey;
     border-radius: 1%; }
+  .gallery__thumb {
+    width: 160px;
+    height: 160px; }
 
 .list-item {
   padding: 5px; }
