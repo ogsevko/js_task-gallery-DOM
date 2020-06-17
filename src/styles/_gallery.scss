@@ -1,0 +1,24 @@
+.gallery {
+  margin: auto;
+
+  &__list {
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__large-img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__img {
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 1%;
+  }
+}
